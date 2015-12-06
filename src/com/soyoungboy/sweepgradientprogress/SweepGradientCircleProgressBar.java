@@ -36,6 +36,10 @@ public class SweepGradientCircleProgressBar extends View {
 	// 向 mask应用一定级别的模糊
 	private float blur = 3.5f;
 	private int arcradus = 30;
+	//初始化进度
+	private int progress = 0;
+	//设置进度最大值
+	private int max = 100;
 	public SweepGradientCircleProgressBar(Context context ,AttributeSet attrs) {
 		super(context,attrs);
 		initPaint();
@@ -113,10 +117,36 @@ public class SweepGradientCircleProgressBar extends View {
 		// 画圆弧，第二个参数为：起始角度，第三个为跨的角度，第四个为true的时候是实心，false的时候为空心
 		canvas.drawArc(oval,
 				0,
-				((float)300 /360 ) * 360,
+				((float)progress /max ) * 360,
 				false,
 				fillArcPaint);
 	}
 
+	public int getProgress() {
+		return progress;
+	}
+
+	public void setProgress(int progress) {
+		this.progress = progress;
+		this.invalidate();
+	}
+
+	public int getMax() {
+		return max;
+	}
+
+	public void setMax(int max) {
+		this.max = max;
+	}
+	/**
+	 * 描述：重置进度
+	 * 
+	 * @throws
+	 */
+	public void reset() {
+		reset = true;
+		this.progress = 0;
+		this.invalidate();
+	}
 
 }
