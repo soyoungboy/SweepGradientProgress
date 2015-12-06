@@ -26,6 +26,7 @@ SweepGradientProgress--圆形颜色渐变的进度条（学习使用SweepGradien
 		progress.setArcColors(arcColors );
 
 效果如下：
+
 ![填充颜色progress][2]
  
 
