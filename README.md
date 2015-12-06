@@ -42,7 +42,9 @@ SweepGradientProgress--圆形颜色渐变的进度条（学习使用SweepGradien
 				Color.parseColor("#cc6699"),
 				Color.parseColor("#99cccc")
 		};
+
 看下效果：
+
 ![enter description here][3]
 卧槽，就像加了特效，duang! duang !duang,完美
 
