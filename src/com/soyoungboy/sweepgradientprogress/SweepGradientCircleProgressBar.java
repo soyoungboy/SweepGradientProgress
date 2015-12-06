@@ -138,6 +138,15 @@ public class SweepGradientCircleProgressBar extends View {
 	public void setMax(int max) {
 		this.max = max;
 	}
+	public int[] getArcColors() {
+		return arcColors;
+	}
+
+	public void setArcColors(int[] arcColors) {
+		this.arcColors = arcColors;
+//		this.invalidate();
+	}
+
 	/**
 	 * 描述：重置进度
 	 * 

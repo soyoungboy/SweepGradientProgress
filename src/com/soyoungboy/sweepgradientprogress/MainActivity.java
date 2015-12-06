@@ -3,6 +3,7 @@ package com.soyoungboy.sweepgradientprogress;
 import android.os.Bundle;
 import android.os.Handler;
 import android.app.Activity;
+import android.graphics.Color;
 import android.view.Menu;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -40,6 +41,18 @@ public class MainActivity extends Activity implements OnClickListener{
 	private void startAddProgress() {
 		myProgress = myProgress + 10;
 		progress.setProgress(myProgress);
+		
+		int[] arcColors = new int[]{
+				Color.parseColor("#99cccc"),
+				Color.parseColor("#ccffff"),
+				Color.parseColor("#ffcccc"),
+				Color.parseColor("#6699cc"),
+				Color.parseColor("#99ccff"),
+				Color.parseColor("#6699cc"),
+				Color.parseColor("#cc6699"),
+				Color.parseColor("#ffff00")
+		};
+		progress.setArcColors(arcColors );
 		handler.sendEmptyMessageDelayed(1, 1000);
 
 	}
