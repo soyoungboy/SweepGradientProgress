@@ -5,6 +5,12 @@ SweepGradientProgress--圆形颜色渐变的进度条（学习使用SweepGradien
 代码很烂，只是练习下如何写自定义控件
 
 2015年12月6日19:29:38
+如何设置进度：
+
+    myProgress = myProgress + 10;
+	progress.setProgress(myProgress);
+	handler.sendEmptyMessageDelayed(1, 1000);
+
 增加填充颜色的方法setArcColors：
 
     int[] arcColors = new int[]{
