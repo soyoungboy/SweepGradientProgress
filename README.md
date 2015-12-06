@@ -48,4 +48,4 @@ SweepGradientProgress--圆形颜色渐变的进度条（学习使用SweepGradien
 
   [1]: http://images2015.cnblogs.com/blog/554581/201512/554581-20151206174605769-265574250.gif
   [2]: http://images2015.cnblogs.com/blog/554581/201512/554581-20151206195027409-1921216229.gif
-  [3]: ./images/GIF1234.gif "GIF1234.gif"
+  [3]: http://images2015.cnblogs.com/blog/554581/201512/554581-20151206215524300-923878272.gif
