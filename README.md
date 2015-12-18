@@ -49,6 +49,9 @@ SweepGradientProgress--圆形颜色渐变的进度条（学习使用SweepGradien
 
 卧槽，就像加了特效，duang! duang !duang,完美
 
+博客地址：
+http://www.cnblogs.com/androidsuperman/p/5021872.html
+
   [1]: http://images2015.cnblogs.com/blog/554581/201512/554581-20151206174605769-265574250.gif
   [2]: http://images2015.cnblogs.com/blog/554581/201512/554581-20151206195027409-1921216229.gif
   [3]: http://images2015.cnblogs.com/blog/554581/201512/554581-20151206215524300-923878272.gif
